@@ -9,6 +9,12 @@ import UIKit
 
 extension UIView{
     
+    func topAnchor(value: CGFloat){
+        guard let parent = self.superview else {
+            return
+        }
+        topAnchor.constraint(equalTo: parent.topAnchor, constant: value).isActive = true
+    }
     func addConstrainInParent(_ padding: UIEdgeInsets = UIEdgeInsets.zero){
         guard let parent = self.superview else {
             return

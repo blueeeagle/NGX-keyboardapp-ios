@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		622F1B2327FA003500EE3538 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622F1B2227FA003500EE3538 /* KeyboardView.swift */; };
 		622F1B2627FA248800EE3538 /* KeyboardAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622F1B2527FA248800EE3538 /* KeyboardAudio.swift */; };
 		625D49A927F717E800A31908 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625D49A827F717E800A31908 /* Media.xcassets */; };
-		625D49AB27F726B700A31908 /* SocialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625D49AA27F726B700A31908 /* SocialButton.swift */; };
 		625D49AD27F7480E00A31908 /* UIColor+Additainal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625D49AC27F7480E00A31908 /* UIColor+Additainal.swift */; };
 		6283862227FB502A00E5C185 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625D49A827F717E800A31908 /* Media.xcassets */; };
 		6283862427FB50BA00E5C185 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6283862327FB50BA00E5C185 /* ContentViewModel.swift */; };
@@ -21,26 +19,16 @@
 		6283863027FB606900E5C185 /* SocialProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6283862F27FB606900E5C185 /* SocialProfileModel.swift */; };
 		6283863127FB606900E5C185 /* SocialProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6283862F27FB606900E5C185 /* SocialProfileModel.swift */; };
 		6283863427FB756D00E5C185 /* SocialActionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6283863227FB756D00E5C185 /* SocialActionView.xib */; };
-		628DC40027FEACD20061D077 /* EmojiKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 628DC3FE27FEACD20061D077 /* EmojiKeyboard.xib */; };
-		628DC40127FEACD20061D077 /* EmojiKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628DC3FF27FEACD20061D077 /* EmojiKeyboard.swift */; };
 		628DC40327FEB89F0061D077 /* EmojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628DC40227FEB89F0061D077 /* EmojiModel.swift */; };
 		6296CD8F27F5FC87008194BC /* SocialKeyboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6296CD7F27F5FC85008194BC /* SocialKeyboardApp.swift */; };
 		6296CD9127F5FC87008194BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6296CD8027F5FC85008194BC /* ContentView.swift */; };
 		6296CD9327F5FC87008194BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6296CD8127F5FC87008194BC /* Assets.xcassets */; };
 		6296CDA427F5FC93008194BC /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6296CDA327F5FC93008194BC /* KeyboardViewController.swift */; };
 		6296CDA827F5FC93008194BC /* Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6296CDA127F5FC93008194BC /* Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		6296CDB227F5FF40008194BC /* KeyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6296CDAE27F5FF40008194BC /* KeyButton.swift */; };
-		6296CDB327F5FF40008194BC /* CapsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6296CDAF27F5FF40008194BC /* CapsButton.swift */; };
-		6296CDB427F5FF40008194BC /* HighlighedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6296CDB027F5FF40008194BC /* HighlighedButton.swift */; };
-		6296CDB527F5FF40008194BC /* BackSpaceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6296CDB127F5FF40008194BC /* BackSpaceButton.swift */; };
-		6296CDB727F610E2008194BC /* AlphabetKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6296CDB627F610E2008194BC /* AlphabetKeyboard.xib */; };
-		6296CDB927F6114C008194BC /* AlphabetKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6296CDB827F6114C008194BC /* AlphabetKeyboard.swift */; };
 		6296CDBC27F61380008194BC /* UIView+Constrains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6296CDBB27F61380008194BC /* UIView+Constrains.swift */; };
-		6296CDBE27F628C3008194BC /* KeyButtonPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6296CDBD27F628C3008194BC /* KeyButtonPop.swift */; };
 		62CA1D1327F6B0AB0005D881 /* SocialActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CA1D1227F6B0AB0005D881 /* SocialActionView.swift */; };
-		62D31D6527FAD03300BB3B2B /* SpecialKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62D31D6327FAD03300BB3B2B /* SpecialKeyboard.xib */; };
-		62D31D6627FAD03300BB3B2B /* SpecialKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D31D6427FAD03300BB3B2B /* SpecialKeyboard.swift */; };
-		FA49E18C2B0F11F30084F7E3 /* emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = FA49E18B2B0F11F30084F7E3 /* emoji.json */; };
+		FA6F7EDE2B0C95F700FAC24F /* emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = FA6F7EDD2B0C95F700FAC24F /* emoji.json */; };
+		FA6F7EDF2B0C95F700FAC24F /* emoji.json in Resources */ = {isa = PBXBuildFile; fileRef = FA6F7EDD2B0C95F700FAC24F /* emoji.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,10 +56,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		622F1B2227FA003500EE3538 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
 		622F1B2527FA248800EE3538 /* KeyboardAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAudio.swift; sourceTree = "<group>"; };
 		625D49A827F717E800A31908 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		625D49AA27F726B700A31908 /* SocialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialButton.swift; sourceTree = "<group>"; };
 		625D49AC27F7480E00A31908 /* UIColor+Additainal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additainal.swift"; sourceTree = "<group>"; };
 		6283862327FB50BA00E5C185 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		6283862527FB51CB00E5C185 /* FeatureRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureRow.swift; sourceTree = "<group>"; };
@@ -80,8 +66,6 @@
 		6283862F27FB606900E5C185 /* SocialProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialProfileModel.swift; sourceTree = "<group>"; };
 		6283863227FB756D00E5C185 /* SocialActionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocialActionView.xib; sourceTree = "<group>"; };
 		6283863527FB779600E5C185 /* Social Keyboard (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Social Keyboard (iOS).entitlements"; sourceTree = "<group>"; };
-		628DC3FE27FEACD20061D077 /* EmojiKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmojiKeyboard.xib; sourceTree = "<group>"; };
-		628DC3FF27FEACD20061D077 /* EmojiKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiKeyboard.swift; sourceTree = "<group>"; };
 		628DC40227FEB89F0061D077 /* EmojiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiModel.swift; sourceTree = "<group>"; };
 		6296CD7F27F5FC85008194BC /* SocialKeyboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialKeyboardApp.swift; sourceTree = "<group>"; };
 		6296CD8027F5FC85008194BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,20 +74,10 @@
 		6296CDA127F5FC93008194BC /* Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		6296CDA327F5FC93008194BC /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		6296CDA527F5FC93008194BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6296CDAE27F5FF40008194BC /* KeyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyButton.swift; sourceTree = "<group>"; };
-		6296CDAF27F5FF40008194BC /* CapsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapsButton.swift; sourceTree = "<group>"; };
-		6296CDB027F5FF40008194BC /* HighlighedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlighedButton.swift; sourceTree = "<group>"; };
-		6296CDB127F5FF40008194BC /* BackSpaceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackSpaceButton.swift; sourceTree = "<group>"; };
-		6296CDB627F610E2008194BC /* AlphabetKeyboard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlphabetKeyboard.xib; sourceTree = "<group>"; };
-		6296CDB827F6114C008194BC /* AlphabetKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphabetKeyboard.swift; sourceTree = "<group>"; };
 		6296CDBB27F61380008194BC /* UIView+Constrains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constrains.swift"; sourceTree = "<group>"; };
-		6296CDBD27F628C3008194BC /* KeyButtonPop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyButtonPop.swift; sourceTree = "<group>"; };
-		629A31B827FC0E05007E6B6B /* emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = emoji.json; path = ../../../../Desktop/emoji.json; sourceTree = "<group>"; };
 		62B30FBC27FBFA8C005FA3B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62CA1D1227F6B0AB0005D881 /* SocialActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialActionView.swift; sourceTree = "<group>"; };
-		62D31D6327FAD03300BB3B2B /* SpecialKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpecialKeyboard.xib; sourceTree = "<group>"; };
-		62D31D6427FAD03300BB3B2B /* SpecialKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialKeyboard.swift; sourceTree = "<group>"; };
-		FA49E18B2B0F11F30084F7E3 /* emoji.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = emoji.json; sourceTree = "<group>"; };
+		FA6F7EDD2B0C95F700FAC24F /* emoji.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emoji.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,25 +98,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		622F1B2427FA006600EE3538 /* KeyboardView */ = {
-			isa = PBXGroup;
-			children = (
-				622F1B2227FA003500EE3538 /* KeyboardView.swift */,
-				628DC3FF27FEACD20061D077 /* EmojiKeyboard.swift */,
-				628DC3FE27FEACD20061D077 /* EmojiKeyboard.xib */,
-				6296CDB827F6114C008194BC /* AlphabetKeyboard.swift */,
-				6296CDB627F610E2008194BC /* AlphabetKeyboard.xib */,
-				62D31D6427FAD03300BB3B2B /* SpecialKeyboard.swift */,
-				62D31D6327FAD03300BB3B2B /* SpecialKeyboard.xib */,
-			);
-			path = KeyboardView;
-			sourceTree = "<group>";
-		};
 		6283862927FB5F5100E5C185 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				FA49E18B2B0F11F30084F7E3 /* emoji.json */,
 				625D49A827F717E800A31908 /* Media.xcassets */,
+				FA6F7EDD2B0C95F700FAC24F /* emoji.json */,
 				6283862A27FB5F7000E5C185 /* StorageService.swift */,
 				6283862F27FB606900E5C185 /* SocialProfileModel.swift */,
 			);
@@ -187,30 +147,14 @@
 			isa = PBXGroup;
 			children = (
 				6296CDA327F5FC93008194BC /* KeyboardViewController.swift */,
-				6296CDBD27F628C3008194BC /* KeyButtonPop.swift */,
 				622F1B2527FA248800EE3538 /* KeyboardAudio.swift */,
 				628DC40227FEB89F0061D077 /* EmojiModel.swift */,
 				62CA1D1227F6B0AB0005D881 /* SocialActionView.swift */,
 				6283863227FB756D00E5C185 /* SocialActionView.xib */,
-				622F1B2427FA006600EE3538 /* KeyboardView */,
 				6296CDBA27F6136C008194BC /* Extension */,
-				6296CDAD27F5FEEE008194BC /* Button */,
 				6296CDA527F5FC93008194BC /* Info.plist */,
-				629A31B827FC0E05007E6B6B /* emoji.json */,
 			);
 			path = Keyboard;
-			sourceTree = "<group>";
-		};
-		6296CDAD27F5FEEE008194BC /* Button */ = {
-			isa = PBXGroup;
-			children = (
-				6296CDB127F5FF40008194BC /* BackSpaceButton.swift */,
-				6296CDAE27F5FF40008194BC /* KeyButton.swift */,
-				6296CDAF27F5FF40008194BC /* CapsButton.swift */,
-				625D49AA27F726B700A31908 /* SocialButton.swift */,
-				6296CDB027F5FF40008194BC /* HighlighedButton.swift */,
-			);
-			path = Button;
 			sourceTree = "<group>";
 		};
 		6296CDBA27F6136C008194BC /* Extension */ = {
@@ -304,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6283862227FB502A00E5C185 /* Media.xcassets in Resources */,
+				FA6F7EDE2B0C95F700FAC24F /* emoji.json in Resources */,
 				6296CD9327F5FC87008194BC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,11 +258,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6283863427FB756D00E5C185 /* SocialActionView.xib in Resources */,
-				FA49E18C2B0F11F30084F7E3 /* emoji.json in Resources */,
+				FA6F7EDF2B0C95F700FAC24F /* emoji.json in Resources */,
 				625D49A927F717E800A31908 /* Media.xcassets in Resources */,
-				62D31D6527FAD03300BB3B2B /* SpecialKeyboard.xib in Resources */,
-				6296CDB727F610E2008194BC /* AlphabetKeyboard.xib in Resources */,
-				628DC40027FEACD20061D077 /* EmojiKeyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,23 +285,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6283863127FB606900E5C185 /* SocialProfileModel.swift in Sources */,
-				62D31D6627FAD03300BB3B2B /* SpecialKeyboard.swift in Sources */,
 				625D49AD27F7480E00A31908 /* UIColor+Additainal.swift in Sources */,
-				6296CDB327F5FF40008194BC /* CapsButton.swift in Sources */,
-				6296CDB927F6114C008194BC /* AlphabetKeyboard.swift in Sources */,
-				628DC40127FEACD20061D077 /* EmojiKeyboard.swift in Sources */,
-				625D49AB27F726B700A31908 /* SocialButton.swift in Sources */,
-				6296CDB527F5FF40008194BC /* BackSpaceButton.swift in Sources */,
 				62CA1D1327F6B0AB0005D881 /* SocialActionView.swift in Sources */,
 				622F1B2627FA248800EE3538 /* KeyboardAudio.swift in Sources */,
-				6296CDBE27F628C3008194BC /* KeyButtonPop.swift in Sources */,
 				6296CDA427F5FC93008194BC /* KeyboardViewController.swift in Sources */,
 				6283862C27FB5F7000E5C185 /* StorageService.swift in Sources */,
 				6296CDBC27F61380008194BC /* UIView+Constrains.swift in Sources */,
 				628DC40327FEB89F0061D077 /* EmojiModel.swift in Sources */,
-				622F1B2327FA003500EE3538 /* KeyboardView.swift in Sources */,
-				6296CDB427F5FF40008194BC /* HighlighedButton.swift in Sources */,
-				6296CDB227F5FF40008194BC /* KeyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,7 +427,7 @@
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3C7UZJWDBM;
+				DEVELOPMENT_TEAM = GF3DTETTS8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -510,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.social.keyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.social.keyboards;
 				PRODUCT_NAME = "Social Keyboard";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -529,7 +461,7 @@
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3C7UZJWDBM;
+				DEVELOPMENT_TEAM = GF3DTETTS8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -544,7 +476,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.social.keyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.social.keyboards;
 				PRODUCT_NAME = "Social Keyboard";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -561,7 +493,7 @@
 				CODE_SIGN_ENTITLEMENTS = Keyboard/Keyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3C7UZJWDBM;
+				DEVELOPMENT_TEAM = GF3DTETTS8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Keyboard/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Social Keyboard";
@@ -573,7 +505,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.social.keyboard.extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.social.keyboards.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -590,7 +522,7 @@
 				CODE_SIGN_ENTITLEMENTS = Keyboard/Keyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3C7UZJWDBM;
+				DEVELOPMENT_TEAM = GF3DTETTS8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Keyboard/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Social Keyboard";
@@ -602,7 +534,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.social.keyboard.extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.social.keyboards.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;

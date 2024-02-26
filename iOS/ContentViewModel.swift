@@ -44,6 +44,7 @@ class ContentViewModel: ObservableObject{
         profiles.append(SocialProfileModel(type: .youtube, value: nil))
         profiles.append(SocialProfileModel(type: .linkedIn, value: nil))
         profiles.append(SocialProfileModel(type: .whatsapp, value: nil))
+        profiles.append(SocialProfileModel(type: .threads, value: nil))
         StorageService.shared.save(profiles)
     }
     

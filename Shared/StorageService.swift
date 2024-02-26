@@ -12,7 +12,7 @@ class StorageService{
     let user : UserDefaults
     
     init() {
-        user = UserDefaults.init(suiteName: "group.com.alex.colorkeyboard") ?? UserDefaults.standard
+        user = UserDefaults.init(suiteName: "group.laborers.keyboard.data") ?? UserDefaults.standard
     }
     func save(_ items:[SocialProfileModel]) {
         if let data = try? JSONEncoder().encode(items){

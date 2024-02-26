@@ -8,7 +8,7 @@
 import Foundation
 
 enum SocialProfileType:Int,Codable {
-    case facebook,instagram,phone,twitter,youtube,linkedIn,whatsapp
+    case facebook,instagram,phone,twitter,youtube,linkedIn,whatsapp, threads
     var icon:String{
         switch self {
         case .facebook:
@@ -24,7 +24,9 @@ enum SocialProfileType:Int,Codable {
         case .linkedIn:
             return "linkedin"
         case .whatsapp:
-            return "whatsapp"
+            return "whatsapp"   
+        case .threads:
+            return "threads"
         }
     }
     var schema:String{
@@ -43,6 +45,8 @@ enum SocialProfileType:Int,Codable {
             return "linkedin://"
         case .whatsapp:
             return "whatsapp://send?text="
+        case .threads:
+           return "https://www.threads.net/"
         }
     }
 }
